@@ -1,0 +1,19 @@
+/*
+ * @author
+ * MSFATA ProgrammingHelp */
+public class Printer<T> {
+
+	public static <T> void print(T input) {
+		System.out.println(input);
+	}
+
+	public static void main(String[] args) {
+		print('C');
+		print("STRING");
+		print(100);
+		print(100.00F);
+		print(120.50D);
+		print(1000000000L);
+		print(true);
+	}
+}
